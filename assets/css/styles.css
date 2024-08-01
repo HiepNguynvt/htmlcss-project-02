@@ -310,8 +310,8 @@ a {
 /* ================= Popular ================ */
 /* Popular-top */
 .popular {
-    padding: 104px 0;
-    margin: 31px;
+    padding: 73px 0;
+    margin-top: 31px;
 }
 .popular-top {
     display: flex;
@@ -574,7 +574,7 @@ a {
 
 /* features-2nd */
 .features-2nd {
-    margin-top: 70px;
+    margin-top: 10px;
 }
 
 .features-2nd .content {
@@ -592,8 +592,8 @@ a {
 /* ================= Blog ================ */
 /* blog top */
 .blog {
-    margin-top: 135px;
-    padding: 96px 0;
+    margin-top: 31px;
+    padding: 93px 0;
     background: #fffcf4;
 }
 
