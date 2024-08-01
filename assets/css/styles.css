@@ -29,6 +29,13 @@ body {
     margin-right: auto;
 }
 
+.main-control-content {
+    width: 1350px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .line-clamp {
     display: -webkit-box;
     -webkit-line-clamp: var(--line-clamp, 1);
@@ -57,7 +64,7 @@ a {
     font-weight: 600;
     border-radius: 999px;
     background: #171100;
-    transition: background-color 0.5s, color 0.5s;
+    transition: opacity 0.5s, background-color 0.5s, color 0.5s;
 }
 
 .btn:hover {
@@ -344,6 +351,7 @@ a {
     border: 1px solid var(--primary-color);
     border-radius: 100%;
     color: var(--primary-color);
+    transition: background-color 0.5s, color 0.5s;
 }
 
 .popular-top .control-btn:hover {
@@ -431,6 +439,7 @@ a {
 
 .course-item .foot button.btn {
     border: none;
+    transition: background-color 0.5s, color 0.5s;
 }
 
 .course-item .foot .btn:hover {
@@ -440,13 +449,35 @@ a {
 
 /* ================= Feedback ================ */
 .feedback {
-    padding-top: 94px;
-    background: #ffffff;
+    background: #2e2100;
 }
 
-.feedback-block {
-    padding: 96px 0;
-    background: #2e2100;
+.feedback .main-control-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 96px 0px;
+}
+
+.feedback .main-control-content .control-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    border-radius: 100%;
+    color: #3f2e02;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.feedback .main-control-content .control-btn svg {
+    width: 50px;
+    height: 50px;
+}
+
+.feedback .main-control-content .control-btn:hover {
+    color: var(--primary-color);
+    cursor: pointer;
 }
 
 .feedback-list {
@@ -594,8 +625,33 @@ a {
 /* blog top */
 .blog {
     margin-top: 31px;
-    padding: 93px 0;
+    padding: 93px 0px;
     background: #fffcf4;
+}
+
+.blog .main-control-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blog .control-btn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: 1px solid var(--primary-color);
+    border-radius: 100%;
+    color: var(--primary-color);
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.blog .control-btn:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+    cursor: pointer;
 }
 
 .blog-top {
@@ -767,6 +823,7 @@ a {
     height: 28px;
     background-color: #49380c;
     border-radius: 6px;
+    transition: background-color 0.5s, color 0.5s;
 }
 
 .footer-top-left .socials a:hover {
@@ -807,6 +864,7 @@ a {
     color: #bfbcb2;
     font-size: 1.4rem;
     font-weight: 400;
+    transition: color 0.5s;
 }
 
 .footer-top-right .list li a:hover {
