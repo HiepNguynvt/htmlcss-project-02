@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>F8 Project 02</title>
+        <title>Lesson</title>
 
         <!-- Embed fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -20,46 +20,48 @@
         <link rel="stylesheet" href="./assets/css/styles.css" />
     </head>
     <body>
-        <main style="height: 5000px">
-            <!-- Header -->
-            <header class="header fixed">
-                <div class="main-content">
-                    <div class="body">
-                        <!-- Logo -->
+        <!-- Header -->
+        <header class="header fixed">
+            <div class="main-content">
+                <div class="body">
+                    <!-- Logo -->
+                    <a href="#">
                         <img
                             src="./assets/icons/Lesson-logo.svg"
                             alt="Lesson."
                             class="logo"
                         />
+                    </a>
 
-                        <!-- Nav -->
-                        <nav class="nav">
-                            <ul>
-                                <li class="active">
-                                    <a href="#!">Home</a>
-                                </li>
-                                <li>
-                                    <a href="#!">Courses</a>
-                                </li>
-                                <li>
-                                    <a href="#!">Pricing</a>
-                                </li>
-                                <li>
-                                    <a href="#!">Reviews</a>
-                                </li>
-                            </ul>
-                        </nav>
+                    <!-- Nav -->
+                    <nav class="nav">
+                        <ul>
+                            <li class="active">
+                                <a href="#Home">Home</a>
+                            </li>
+                            <li>
+                                <a href="#Popular">Pricing</a>
+                            </li>
+                            <li>
+                                <a href="#Feedback">Reviews</a>
+                            </li>
+                            <li>
+                                <a href="#Features">Courses</a>
+                            </li>
+                        </ul>
+                    </nav>
 
-                        <!-- Action -->
-                        <div class="action">
-                            <a href="#!" class="btn">Sign Up</a>
-                        </div>
+                    <!-- Action -->
+                    <div class="action">
+                        <a href="#!" class="btn">Sign Up</a>
                     </div>
                 </div>
-            </header>
-
+            </div>
+        </header>
+        <!-- Main content -->
+        <main>
             <!-- Hero -->
-            <div class="hero">
+            <div id="Home" class="hero">
                 <div class="main-content">
                     <div class="body">
                         <!-- Hero left -->
@@ -150,7 +152,7 @@
             </div>
 
             <!-- Popular -->
-            <div class="popular">
+            <div id="Popular" class="popular">
                 <div class="main-content">
                     <div class="popular-top">
                         <div class="info">
@@ -323,108 +325,110 @@
             </div>
 
             <!-- Feedback -->
-            <div class="feedback">
-                <div class="main-content">
-                    <div class="feedback-list">
-                        <!-- Feedback item 1 -->
-                        <div class="feedback-item">
-                            <div class="info">
-                                <img
-                                    src="./assets/img/feedback-avatar.png"
-                                    alt=""
-                                    class="avatar"
-                                />
-                                <p class="title">Peter Moor</p>
-                                <p class="desc">Student of Web Design</p>
-                                <div class="dots">
-                                    <span class="dot active"></span>
-                                    <span class="dot"></span>
-                                    <span class="dot"></span>
+            <div id="Feedback" class="feedback">
+                <div class="feedback-block">
+                    <div class="main-content">
+                        <div class="feedback-list">
+                            <!-- Feedback item 1 -->
+                            <div class="feedback-item">
+                                <div class="info">
+                                    <img
+                                        src="./assets/img/feedback-avatar.png"
+                                        alt=""
+                                        class="avatar"
+                                    />
+                                    <p class="title">Peter Moor</p>
+                                    <p class="desc">Student of Web Design</p>
+                                    <div class="dots">
+                                        <span class="dot active"></span>
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                    </div>
+                                </div>
+
+                                <div class="content">
+                                    <img
+                                        src="./assets/icons/open-quote.svg"
+                                        alt=""
+                                        class="open-quotes"
+                                    />
+                                    <blockquote>
+                                        Not only does my resume look
+                                        impressive—filled with the names and
+                                        logos of world-class institutions—but
+                                        these certificates also bring me closer
+                                        to my career goals by validating the
+                                        skills I've learned."
+                                    </blockquote>
                                 </div>
                             </div>
 
-                            <div class="content">
-                                <img
-                                    src="./assets/icons/open-quote.svg"
-                                    alt=""
-                                    class="open-quotes"
-                                />
-                                <blockquote>
-                                    Not only does my resume look
-                                    impressive—filled with the names and logos
-                                    of world-class institutions—but these
-                                    certificates also bring me closer to my
-                                    career goals by validating the skills I've
-                                    learned."
-                                </blockquote>
-                            </div>
-                        </div>
+                            <!-- Feedback item 2 -->
+                            <div class="feedback-item">
+                                <div class="info">
+                                    <img
+                                        src="./assets/img/feedback-avatar-2.jpg"
+                                        alt=""
+                                        class="avatar"
+                                    />
+                                    <p class="title">Peter Moor</p>
+                                    <p class="desc">Student of Web Design</p>
+                                    <div class="dots">
+                                        <span class="dot"></span>
+                                        <span class="dot active"></span>
+                                        <span class="dot"></span>
+                                    </div>
+                                </div>
 
-                        <!-- Feedback item 2 -->
-                        <div class="feedback-item">
-                            <div class="info">
-                                <img
-                                    src="./assets/img/feedback-avatar-2.jpg"
-                                    alt=""
-                                    class="avatar"
-                                />
-                                <p class="title">Peter Moor</p>
-                                <p class="desc">Student of Web Design</p>
-                                <div class="dots">
-                                    <span class="dot"></span>
-                                    <span class="dot active"></span>
-                                    <span class="dot"></span>
+                                <div class="content">
+                                    <img
+                                        src="./assets/icons/open-quote.svg"
+                                        alt=""
+                                        class="open-quotes"
+                                    />
+                                    <blockquote>
+                                        Not only does my resume look
+                                        impressive—filled with the names and
+                                        logos of world-class institutions—but
+                                        these certificates also bring me closer
+                                        to my career goals by validating the
+                                        skills I've learned."
+                                    </blockquote>
                                 </div>
                             </div>
 
-                            <div class="content">
-                                <img
-                                    src="./assets/icons/open-quote.svg"
-                                    alt=""
-                                    class="open-quotes"
-                                />
-                                <blockquote>
-                                    Not only does my resume look
-                                    impressive—filled with the names and logos
-                                    of world-class institutions—but these
-                                    certificates also bring me closer to my
-                                    career goals by validating the skills I've
-                                    learned."
-                                </blockquote>
-                            </div>
-                        </div>
-
-                        <!-- Feedback item 3 -->
-                        <div class="feedback-item">
-                            <div class="info">
-                                <img
-                                    src="./assets/img/feedback-avatar-3.jpg"
-                                    alt=""
-                                    class="avatar"
-                                />
-                                <p class="title">Peter Moor</p>
-                                <p class="desc">Student of Web Design</p>
-                                <div class="dots">
-                                    <span class="dot"></span>
-                                    <span class="dot"></span>
-                                    <span class="dot active"></span>
+                            <!-- Feedback item 3 -->
+                            <div class="feedback-item">
+                                <div class="info">
+                                    <img
+                                        src="./assets/img/feedback-avatar-3.jpg"
+                                        alt=""
+                                        class="avatar"
+                                    />
+                                    <p class="title">Peter Moor</p>
+                                    <p class="desc">Student of Web Design</p>
+                                    <div class="dots">
+                                        <span class="dot"></span>
+                                        <span class="dot"></span>
+                                        <span class="dot active"></span>
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="content">
-                                <img
-                                    src="./assets/icons/open-quote.svg"
-                                    alt=""
-                                    class="open-quotes"
-                                />
-                                <blockquote>
-                                    Not only does my resume look
-                                    impressive—filled with the names and logos
-                                    of world-class institutions—but these
-                                    certificates also bring me closer to my
-                                    career goals by validating the skills I've
-                                    learned."
-                                </blockquote>
+                                <div class="content">
+                                    <img
+                                        src="./assets/icons/open-quote.svg"
+                                        alt=""
+                                        class="open-quotes"
+                                    />
+                                    <blockquote>
+                                        Not only does my resume look
+                                        impressive—filled with the names and
+                                        logos of world-class institutions—but
+                                        these certificates also bring me closer
+                                        to my career goals by validating the
+                                        skills I've learned."
+                                    </blockquote>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -432,7 +436,7 @@
             </div>
 
             <!-- Features 1-->
-            <div class="features">
+            <div id="Features" class="features">
                 <div class="main-content">
                     <div class="body">
                         <div class="images">
@@ -488,7 +492,7 @@
             </div>
 
             <!-- Blog -->
-            <div class="blog">
+            <div id="Blog" class="blog">
                 <div class="main-content">
                     <div class="blog-top">
                         <h2 class="heading lv2">Our blog</h2>
@@ -765,8 +769,132 @@
                     </div>
                 </div>
             </div>
-
-            <!-- Footer -->
         </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="main-content">
+                <div class="body">
+                    <div class="footer-top">
+                        <!-- Footer left -->
+                        <div class="footer-top-left">
+                            <a href="#">
+                                <img
+                                    src="./assets/icons/Lesson-logo(1).svg"
+                                    alt="Lesson."
+                                    class="logo"
+                                />
+                            </a>
+                            <p class="desc">
+                                Need to help for your dream Career? trust us.
+                                With Lesson, study becomes a lot easier with us.
+                            </p>
+                            <div class="socials">
+                                <a href="#!">
+                                    <img
+                                        src="./assets/icons/Twitter-icon (1).svg"
+                                        alt=""
+                                        class="icon"
+                                    />
+                                </a>
+                                <a href="#!">
+                                    <img
+                                        src="./assets/icons/Facebook-icon (2).svg"
+                                        alt=""
+                                        class="icon"
+                                    />
+                                </a>
+                                <a href="#!">
+                                    <img
+                                        src="./assets/icons/Linkedin-icon (2).svg"
+                                        alt=""
+                                        class="icon"
+                                    />
+                                </a>
+                                <a href="#!">
+                                    <img
+                                        src="./assets/icons/Instagram-icon.svg"
+                                        alt=""
+                                        class="icon"
+                                    />
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Footer right -->
+                        <div class="footer-top-right">
+                            <!-- Column 1 -->
+                            <div class="column">
+                                <h3 class="heading lv3">Company</h3>
+                                <ul class="list">
+                                    <li>
+                                        <a href="#!">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">Features</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">Our Pricing</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">Latest News</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Column 2 -->
+                            <div class="column">
+                                <h3 class="heading lv3">Support</h3>
+                                <ul class="list">
+                                    <li>
+                                        <a href="#!">FAQ’s</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">Terms & Conditions</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">Privacy Policy</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Column 3 -->
+                            <div class="column">
+                                <h3 class="heading lv3">Address</h3>
+                                <ul class="list">
+                                    <li>
+                                        <a href="#!"
+                                            ><strong>Location:</strong> 27
+                                            Division St, New York, NY 10002,
+                                            USA</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a href="#!"
+                                            ><strong>Email:</strong>
+                                            email@gmail.com</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a href="#!"
+                                            ><strong>Phone:</strong> + 000 1234
+                                            567 890</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Footer-lower -->
+                    <div class="footer-bottom">
+                        <p class="copy-right">
+                            Copyright ©2022 webdesign.gdn All rights reserved
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
