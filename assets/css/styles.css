@@ -150,6 +150,18 @@ a {
     background: #171100;
 }
 
+.nav li a:hover::after {
+    position: absolute;
+    left: 21px;
+    bottom: 6px;
+    content: "";
+    width: 12px;
+    height: 2px;
+    display: inline-block;
+    border-radius: 1px;
+    background: #171100;
+}
+
 .header .action a {
     width: 144px;
 }
