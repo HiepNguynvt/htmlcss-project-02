@@ -478,7 +478,7 @@ a {
     background: transparent;
     border: none;
     border-radius: 100%;
-    color: #3f2e02;
+    color: #634700;
     transition: background-color 0.5s, color 0.5s;
 }
 
@@ -866,6 +866,14 @@ a {
 
 .footer-top-right .list {
     margin-top: 28px;
+}
+
+.footer-top-right .column:nth-child(2) {
+    width: 137px;
+}
+
+.footer-top-right .column:last-child {
+    width: 231px;
 }
 
 .footer-top-right .list li {
